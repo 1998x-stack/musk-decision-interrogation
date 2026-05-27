@@ -67,7 +67,7 @@ Uses **STAR** methodology with extreme detail bias:
 
 From within Claude Code, first add the marketplace:
 ```
-/plugin marketplace add musk-interview/musk-decision-interrogation
+/plugin marketplace add 1998x-stack/musk-decision-interrogation
 ```
 
 Then install the plugin:
@@ -79,13 +79,10 @@ Then install the plugin:
 
 New project:
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/musk-interview/musk-decision-interrogation/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/1998x-stack/musk-decision-interrogation/main/CLAUDE.md
 ```
-
-Existing project (append):
-```bash
-echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/musk-interview/musk-decision-interrogation/main/CLAUDE.md >> CLAUDE.md
+...
+curl https://raw.githubusercontent.com/1998x-stack/musk-decision-interrogation/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ## Using with Cursor
