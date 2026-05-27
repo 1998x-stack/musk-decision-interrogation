@@ -1,16 +1,16 @@
 {
-  "name": "musk-interview",
-  "id": "musk-interview",
+  "name": "musk-interrogation",
+  "id": "musk-interrogation",
   "owner": {
     "name": "1998x-stack"
   },
   "metadata": {
-    "description": "Musk-Style Decision Maker Deep Interrogation — roleplay as Elon Musk to analyze decisions through First Principles and STAR methodology",
+    "description": "Musk-Style Decision Interrogation — roleplay as Elon Musk to analyze decisions through First Principles and STAR methodology",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "musk-interview",
+      "name": "musk-interrogation",
       "source": "./",
       "description": "Musk-style decision interrogation: First Principles thinking, STAR problem-solving, and deep analysis of decision chains through roleplay",
       "version": "1.0.0",
@@ -23,7 +23,8 @@
         "musk",
         "analysis",
         "thinking",
-        "roleplay"
+        "roleplay",
+        "interrogation"
       ],
       "category": "analysis"
     }

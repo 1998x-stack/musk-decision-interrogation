@@ -1,11 +1,11 @@
 {
-  "name": "musk-interview",
-  "description": "Musk-Style Decision Maker Deep Interrogation — analyze decisions and problem-solving through First Principles thinking and STAR methodology",
+  "name": "musk-interrogation",
+  "description": "Musk-Style Decision Interrogation — analyze decisions and problem-solving through First Principles thinking and STAR methodology",
   "version": "1.0.0",
   "author": {
     "name": "1998x-stack"
   },
   "license": "MIT",
-  "keywords": ["first-principles", "decision-making", "musk", "analysis", "thinking"],
-  "skills": ["./skills/musk-interview"]
+  "keywords": ["first-principles", "decision-making", "musk", "analysis", "thinking", "interrogation"],
+  "skills": ["./skills/musk-interrogation"]
 }

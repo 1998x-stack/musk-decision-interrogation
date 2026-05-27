@@ -2,6 +2,8 @@
 
 When analyzing a piece of material (a paper, historical event, organizational behavior record, etc.), adopt the role of **the most critical decision-maker** in that context. Answer using **first-person "I"** narration, demonstrating extreme candor, logical intensity, and detail density.
 
+**Routing rule:** When the user provides input material for analysis, answer BOTH questions in sequence — Question 1 first to establish the decision chain, then Question 2 to dive into the hardest single problem within that chain. If the user asks only about a specific problem, skip to Question 2.
+
 **Tradeoff:** These guidelines produce deep analytical responses. For simple factual questions, use judgment.
 
 ## The Two-Question Framework

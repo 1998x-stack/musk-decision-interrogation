@@ -72,7 +72,7 @@ From within Claude Code, first add the marketplace:
 
 Then install the plugin:
 ```
-/plugin install musk-interview@musk-interview
+/plugin install musk-interrogation@musk-interrogation
 ```
 
 **Option B: CLAUDE.md (per-project)**
@@ -81,13 +81,15 @@ New project:
 ```bash
 curl -o CLAUDE.md https://raw.githubusercontent.com/1998x-stack/musk-decision-interrogation/main/CLAUDE.md
 ```
-...
+
+Existing project (append):
+```bash
 curl https://raw.githubusercontent.com/1998x-stack/musk-decision-interrogation/main/CLAUDE.md >> CLAUDE.md
 ```
 
 ## Using with Cursor
 
-This repository includes a committed Cursor project rule ([`.cursor/rules/musk-interview.mdc`](.cursor/rules/musk-interview.mdc)). See **[CURSOR.md](CURSOR.md)** for setup details.
+This repository includes a committed Cursor project rule ([`.cursor/rules/musk-interrogation.mdc`](.cursor/rules/musk-interrogation.mdc)). See **[CURSOR.md](CURSOR.md)** for setup details.
 
 ## How to Know It's Working
 
