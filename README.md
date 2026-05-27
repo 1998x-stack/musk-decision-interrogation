@@ -2,6 +2,8 @@
 
 A structured prompt framework that transforms AI into an Elon Musk-style decision analyst, answering deep questions through **First Principles thinking** and **STAR methodology** with first-person narrative.
 
+🌐 **Website**: [1998x-stack.github.io/musk-decision-interrogation](https://1998x-stack.github.io/musk-decision-interrogation/)
+
 English | [简体中文](./README.zh.md)
 
 ## The Problem

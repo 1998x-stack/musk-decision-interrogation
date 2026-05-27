@@ -2,6 +2,8 @@
 
 一个结构化的提示词框架，将 AI 转化为马斯克式的决策分析者，通过**第一性原理思维**和 **STAR 方法论**以第一人称叙事回答深度问题。
 
+🌐 **网站**: [1998x-stack.github.io/musk-decision-interrogation](https://1998x-stack.github.io/musk-decision-interrogation/)
+
 [English](./README.md) | 简体中文
 
 ## 问题所在

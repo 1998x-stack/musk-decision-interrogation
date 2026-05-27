@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Musk-Style Decision Interrogation</title>
+<meta name="description" content="A structured prompt framework that transforms AI into an Elon Musk-style decision analyst through First Principles thinking and STAR methodology.">
+<link rel="stylesheet" href="assets/base-dark.css">
+<style>
+  :root {
+    --c1: #E31937; --c1d: #8B0E1E;
+    --c2: #3B82F6; --c2d: #1E40AF;
+    --c3: #F59E0B; --c3d: #92400E;
+  }
+  .hero h1 em {
+    background: linear-gradient(90deg, var(--c1), #F87171, var(--c2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* ── Install CTA row ── */
+  .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
+  .cta-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 10px 22px; border-radius: 8px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    border: 1px solid var(--border2); background: var(--bg2);
+    color: var(--text); transition: all .15s;
+  }
+  .cta-btn:hover { background: var(--bg3); border-color: var(--text); }
+  .cta-btn.primary { background: var(--c1d); border-color: var(--c1); }
+  .cta-btn.primary:hover { background: var(--c1); }
+
+  /* ── Big quote card ── */
+  .quote-card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 12px;
+    padding: 32px 36px; margin-bottom: 24px;
+    border-left: 4px solid var(--c1);
+  }
+  .quote-card .q-num {
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--c1);
+    text-transform: uppercase; margin-bottom: 12px;
+  }
+  .quote-card .q-text {
+    font-size: 20px; font-weight: 600; line-height: 1.4; margin-bottom: 16px;
+  }
+  .quote-card .q-detail {
+    font-size: 13px; color: var(--muted); line-height: 1.8;
+  }
+
+  /* ── Stat bar ── */
+  .stat-bar {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px;
+  }
+  .stat-box {
+    flex: 1; min-width: 140px;
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 8px;
+    padding: 14px 16px; text-align: center;
+  }
+  .stat-box .sv { font-size: 26px; font-weight: 700; }
+  .stat-box .sl {
+    font-size: 11px; color: var(--muted); margin-top: 4px;
+    text-transform: uppercase; letter-spacing: .06em;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-brand">Musk Interrogation <span>· Decision Analysis Framework</span></span>
+    <a class="nl" href="#questions">Questions</a>
+    <a class="nl" href="#install">Install</a>
+    <a class="nl" href="#cases">Use Cases</a>
+    <a class="nl" href="https://github.com/1998x-stack/musk-decision-interrogation">GitHub</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="dot"></span> AI Prompt Framework · Open Source · MIT
+    </div>
+    <h1>Ask the Questions<br>That <em>Reveal Truth</em></h1>
+    <p>
+      A structured prompt framework that transforms AI into an Elon Musk-style decision analyst.
+      Two questions. First Principles decomposition. STAR-level detail. First-person narrative.
+      No vague philosophy &mdash; only concrete facts, causal chains, and quantifiable outcomes.
+    </p>
+    <div class="tag-row">
+      <span class="ltag" style="color:var(--c1);border-color:var(--c1);background:rgba(227,25,55,.08)">First Principles</span>
+      <span class="ltag" style="color:var(--c2);border-color:var(--c2);background:rgba(59,130,246,.08)">STAR Methodology</span>
+      <span class="ltag" style="color:var(--c3);border-color:var(--c3);background:rgba(245,158,11,.08)">Decision Analysis</span>
+    </div>
+    <div class="cta-row" style="margin-top:28px">
+      <a href="#install" class="cta-btn primary">Install Plugin</a>
+      <a href="https://github.com/1998x-stack/musk-decision-interrogation" class="cta-btn">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- ── Flow: How It Works ── -->
+  <section class="flow" id="how">
+    <div class="sec-label">How It Works</div>
+    <div class="flow-track">
+      <div class="flow-box">
+        <div class="fb-tag" style="color:var(--muted);font-size:11px;font-weight:700;margin-bottom:8px">STEP 1</div>
+        <div class="fb-name">Load Input Material</div>
+        <div class="fb-sub">Provide any case study, historical event, business report, or organizational record for analysis.</div>
+      </div>
+      <div class="flow-arrow">
+        <span class="arr-icon">→</span>
+      </div>
+      <div class="flow-box">
+        <div class="fb-tag" style="color:var(--c1);font-size:11px;font-weight:700;margin-bottom:8px">STEP 2</div>
+        <div class="fb-name">Adopt Decision-Maker Role</div>
+        <div class="fb-sub">AI becomes the key decision-maker. First-person "I" narration. No observer distance.</div>
+      </div>
+      <div class="flow-arrow">
+        <span class="arr-icon">→</span>
+      </div>
+      <div class="flow-box">
+        <div class="fb-tag" style="color:var(--c2);font-size:11px;font-weight:700;margin-bottom:8px">STEP 3</div>
+        <div class="fb-name">Question 1: Story &amp; First Principles</div>
+        <div class="fb-sub">Reconstruct the decision chain. Break each fork to physical limits and economic essences.</div>
+      </div>
+      <div class="flow-arrow">
+        <span class="arr-icon">→</span>
+      </div>
+      <div class="flow-box">
+        <div class="fb-tag" style="color:var(--c3);font-size:11px;font-weight:700;margin-bottom:8px">STEP 4</div>
+        <div class="fb-name">Question 2: The Hardest Problem</div>
+        <div class="fb-sub">STAR deep dive with extreme detail: failed attempts, hands-on dissection, insight moment, quantifiable result.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section: The Two Questions ── -->
+  <section class="layer-sec" id="questions">
+    <div class="layer-hdr">
+      <span class="layer-id-badge" style="background:var(--c1d);color:#fecaca">Q1 &amp; Q2</span>
+      <span class="layer-title">The Two Questions</span>
+    </div>
+    <p class="layer-def" style="border-color:var(--c1)">
+      Two questions. <strong>Always answered in sequence.</strong> Question 1 establishes the decision chain through First Principles. Question 2 dives into the single hardest problem with STAR-level engineering detail.
+    </p>
+
+    <div class="grid2">
+      <div class="quote-card">
+        <div class="q-num">Question 1</div>
+        <div class="q-text">Tell me your story, the decisions you made along the way, and why you made them.</div>
+        <div class="q-detail">
+          <strong>First Principles decomposition</strong> — For each of 2–3 critical forks:<br>
+          · What was the mainstream approach? (analogical thinking)<br>
+          · What is the fundamental truth / physical limit / economic essence?<br>
+          · What counter-intuitive solution emerged?<br>
+          · Why was it defended despite enormous risk?<br>
+          <br>
+          <strong>Output:</strong> A causal decision chain, not a chronological list. Values and motives exposed through decision rationale.
+        </div>
+      </div>
+      <div class="quote-card" style="border-left-color:var(--c2)">
+        <div class="q-num" style="color:var(--c2)">Question 2</div>
+        <div class="q-text">Tell me about the hardest problem you've ever solved, and how you solved it.</div>
+        <div class="q-detail">
+          <strong>STAR with extreme detail:</strong><br>
+          · <strong>Situation &amp; Task</strong> — Source of "impossibility" in 2–3 sentences<br>
+          · <strong>Action</strong> — Failed attempts, hands-on dissection, insight moment, disruptive solution<br>
+          · <strong>Result</strong> — Quantifiable: "cost from $1M/kg to $1K/kg" not "significantly improved"<br>
+          <br>
+          <strong>Output:</strong> Engineering-level narrative. Personal accountability. Hard numbers.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Transition ── -->
+  <section class="tran-sec">
+    <div class="tran-inner">
+      <span class="tran-pill" style="background:var(--c1d);color:#fca5a5">Output Quality Gate</span>
+      <div class="tran-h">What the interrogation produces — and what it rejects</div>
+      <p class="tran-p">
+        The framework is designed to block superficial analysis and force genuine insight.
+        Every output passes through implicit quality gates that distinguish real analysis from description.
+      </p>
+      <div class="gate">
+        <span class="gate-item gi-pass" style="color:var(--green);border-color:rgba(40,200,64,.35);background:rgba(40,200,64,.06)">✓ First Principles decomposition to physical/economic fundamentals</span>
+        <span class="gate-item gi-pass" style="color:var(--green);border-color:rgba(40,200,64,.35);background:rgba(40,200,64,.06)">✓ Causal decision chains — each fork leads logically to the next</span>
+        <span class="gate-item gi-pass" style="color:var(--green);border-color:rgba(40,200,64,.35);background:rgba(40,200,64,.06)">✓ Quantifiable outcomes with hard numbers</span>
+        <span class="gate-item gi-pass" style="color:var(--green);border-color:rgba(40,200,64,.35);background:rgba(40,200,64,.06)">✓ Honest failure accounting — what was tried, what failed, and why</span>
+        <span class="gate-item gi-fail" style="color:var(--red);border-color:rgba(248,81,73,.35);background:rgba(248,81,73,.06)">✗ Descriptive narratives without causal reasoning</span>
+        <span class="gate-item gi-fail" style="color:var(--red);border-color:rgba(248,81,73,.35);background:rgba(248,81,73,.06)">✗ Vague adjectives — "significant", "dramatic", "improved"</span>
+        <span class="gate-item gi-fail" style="color:var(--red);border-color:rgba(248,81,73,.35);background:rgba(248,81,73,.06)">✗ Third-person observer narration without personal accountability</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section: Install ── -->
+  <section class="layer-sec" id="install">
+    <div class="layer-hdr">
+      <span class="layer-id-badge" style="background:var(--c2d);color:#bfdbfe">INSTALL</span>
+      <span class="layer-title">Get Started <small>2 ways to install</small></span>
+    </div>
+
+    <div class="grid2" style="margin-top:8px">
+      <div class="card">
+        <div class="card-title" style="color:var(--c2)">Option A: Claude Code Plugin (recommended)</div>
+        <div style="margin-top:12px;font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:12px">Install via the plugin marketplace for use across all projects.</div>
+        <div class="codeblock" style="margin-bottom:0">
+          <div class="cb-head">
+            <span class="cb-dot" style="background:#f85149"></span><span class="cb-dot" style="background:#e3b341"></span><span class="cb-dot" style="background:#28c840"></span>
+            Terminal
+          </div>
+          <div class="cb-body">/plugin marketplace add 1998x-stack/musk-decision-interrogation
+/plugin install musk-interrogation@musk-interrogation</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c3)">Option B: CLAUDE.md (per-project)</div>
+        <div style="margin-top:12px;font-size:13px;color:var(--muted);line-height:1.7;margin-bottom:12px">Copy the instruction file directly into any project for immediate use.</div>
+        <div class="codeblock" style="margin-bottom:0">
+          <div class="cb-head">
+            <span class="cb-dot" style="background:#f85149"></span><span class="cb-dot" style="background:#e3b341"></span><span class="cb-dot" style="background:#28c840"></span>
+            Terminal
+          </div>
+          <div class="cb-body">curl -o CLAUDE.md https://raw.githubusercontent.com/1998x-stack/musk-decision-interrogation/main/CLAUDE.md</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px">
+      <div class="card-title" style="margin-bottom:12px">Also available for</div>
+      <div class="stat-bar" style="margin-bottom:0">
+        <div class="stat-box"><div class="sv" style="color:var(--c2)">Cursor</div><div class="sl">Project Rule</div></div>
+        <div class="stat-box"><div class="sv" style="color:var(--c3)">Claude Code</div><div class="sl">Plugin + CLAUDE.md</div></div>
+        <div class="stat-box"><div class="sv" style="color:var(--c1)">Any AI Tool</div><div class="sl">Copy CLAUDE.md</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section: Use Cases ── -->
+  <section class="layer-sec" id="cases">
+    <div class="layer-hdr">
+      <span class="layer-id-badge" style="background:var(--c3d);color:#fde68a">CASES</span>
+      <span class="layer-title">Use Cases</span>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <div class="card-title" style="color:var(--c1)">Case Study Analysis</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Analyze strategic decisions: <em style="color:var(--text);font-style:normal">"How did SpaceX decide to build reusable rockets?"</em></p>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c2)">Historical Review</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Reconstruct crisis decisions: <em style="color:var(--text);font-style:normal">"Examine the Apollo 13 mission response."</em></p>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c3)">Business Audit</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Stress-test strategies: <em style="color:var(--text);font-style:normal">"Evaluate Netflix's pivot from DVDs to streaming."</em></p>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c1)">Org Behavior Analysis</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Deep-dive acquisitions: <em style="color:var(--text);font-style:normal">"Analyze Google's DeepMind acquisition."</em></p>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c2)">Technical Deep Dive</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Examine engineering challenges: <em style="color:var(--text);font-style:normal">"How was Falcon 9 reusability achieved?"</em></p>
+      </div>
+      <div class="card">
+        <div class="card-title" style="color:var(--c3)">Personal Coaching</div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">Think through decisions: <em style="color:var(--text);font-style:normal">"Help me analyze this career fork."</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <div class="footer">
+    Musk-Style Decision Interrogation · MIT License · <a href="https://github.com/1998x-stack/musk-decision-interrogation" style="color:var(--muted)">github.com/1998x-stack/musk-decision-interrogation</a>
+  </div>
+
+</div>
+</body>
+</html>
